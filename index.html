@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clicker Mastered | Home</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="home.css">
+        <title>Clicker Mastered | Home</title>
+    </head>
 <body>
-    <nav></nav>
-    <button>
-        <a href="play.html">Play</a>
-    </button>
+    <header class="homeHeader">
+        <h1 class="title">ClickerMastered</h1>
+        <a href="play.html">play</a>
+    </header>
+
+    <div class="homeMenu" style="display: none;">
+        <button class="btn menuBtn menuBtn__play">
+            PLAY
+        </button>
+        <button class="btn menuBtn menuBtn__settings">
+            SETTINGS
+        </button>
+        <a href="" class="menuLink menuLink__htp">How to play</a>
+        <a href="" class="menuLink menuLink__about">About</a>
+    </div>
+    
+    <div class="homeProfiles" style="display: initial;">
+        <nav class="profilesNav">
+            <button class="profilesNav__backBtn">
+                <svg xmlns="icons\iconmonstr-arrow-79.svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M3 12l18-12v24z"/></svg>
+            </button>
+        </nav>
+        <div class="profiles__profile emptyProfile"></div>
+        <div class="profiles__profile emptyProfile"></div>
+        <div class="profiles__profile emptyProfile"></div>
+    </div>
+
+    <footer class="homeFooter" style="display: none;">
+        <div class="footerSection">
+            <a href="" class="footerSection__link">Placeholder</a>
+            <a href="" class="footerSection__link">Placeholder</a>
+            <a href="" class="footerSection__link">Placeholder</a>
+        </div>
+        <div class="footerIcon"></div>
+        <div class="footerSection">
+            <a href="" class="footerSection__link">Placeholder</a>
+            <a href="" class="footerSection__link">Placeholder</a>
+            <a href="" class="footerSection__link">Placeholder</a>
+        </div>
+    </footer>
 </body>
 </html>
